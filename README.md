@@ -14,10 +14,11 @@ END_MUTATE()
 
 Dotfuscator 1.0
 ---------------
-Usage:
-        Dotfuscator exefile [-m{n}] [-o{outfile}]
-        -m      Mutate times
-        -o      Output file
+Usage:  
+        Dotfuscator exefile [-m{n}] [-o{outfile}]  
+        -m      Mutate times  
+        -o      Output file  
+        
 
 比如 Dotfuscator.exe test.exe -m3 -o1.exe 将test.exe扭曲加密后输出到新的1.exe，-m3代表循环处理3次，默认是2次，如果处理次数太多，代码会急剧膨胀，并且处理时间会变的很长。
 
